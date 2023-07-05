@@ -1,8 +1,8 @@
-package SeminarOop2.clients.wild.impl;
+package core.clients.wild.impl;
 
-import SeminarOop2.core.clients.Runnable;
-import SeminarOop2.core.clients.owners.Owner;
-import SeminarOop2.core.clients.wild.WildAnimal;
+import core.clients.Runnable;
+import core.clients.owners.Owner;
+import core.clients.wild.WildAnimal;
 
 import java.time.LocalDate;
 

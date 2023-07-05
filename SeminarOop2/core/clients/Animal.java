@@ -1,12 +1,12 @@
-package SeminarOop2.core.clients;
+package core.clients;
 
-import SeminarOop2.core.clients.owners.Owner;
-import SeminarOop2.core.clients.supports.Record;
+import core.clients.owners.Owner;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
+
+import core.clients.supports.Record;
 
 /**
   Абстракция животного - пациента ветклиники.

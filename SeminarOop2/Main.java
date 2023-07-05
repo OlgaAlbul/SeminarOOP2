@@ -1,10 +1,14 @@
-package SeminarOop2;
 
-import SeminarOop2.core.clients.Animal;
-import SeminarOop2.core.clients.home.impl.Cat;
-import SeminarOop2.core.clients.owners.Owner;
+import core.clients.home.impl.Cat;
+import core.clients.home.impl.Snake;
+import core.clients.owners.Owner;
 
 import java.time.LocalDate;
+
+import core.clients.wild.impl.Duck;
+import core.clients.wild.impl.WildCat;
+import core.personal.Doctor;
+import core.personal.Nurse;
 
 /**
  Небольшая шпаргалка по синтаксису java:
@@ -20,11 +24,30 @@ public class Main {
         Cat homeCat =
                 new Cat(2, "Tom", 4, LocalDate.of(2022, 4,13), new Owner("Ivanov Ivan"));
 
-        SeminarOop2.core.clients.wild.impl.WildCat wildCat =
-                new SeminarOop2.core.clients.wild.impl.WildCat(
+        core.clients.wild.impl.WildCat wildCat =
+                new WildCat(
                         1, 4, LocalDate.of(2023, 1, 5), new Owner("incognito"));
 
-        homeCat.hunt();
-        wildCat.hunt();
+        //homeCat.hunt();
+        //wildCat.hunt();
+        Doctor doctor1 = new Doctor(001, "Петров", "Иван", "Иваныч");
+        doctor1.ExamineAnimal(homeCat);
+        doctor1.PurposeTreatment(wildCat);
+        Nurse nurse1 = new Nurse(001, "Сусленкова", "Яна", "Викторовна");
+        nurse1.TakingTests(homeCat);
+        nurse1.PerformingPurposes(wildCat);
+        Duck duck1 = new Duck(002, 2, LocalDate.of(2023, 7, 16), null);
+        Snake snake1 = new Snake(003, "Pusy", 0, LocalDate.of(2023, 5, 23),new Owner("Jaime Lannister"));
+
+        homeCat.volume();
+        duck1.fly();
+        duck1.run();
+        duck1.swim();
+        duck1.volume();
+        snake1.run();
+        
+
+
+
     }
 }

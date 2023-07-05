@@ -1,4 +1,4 @@
-package SeminarOop2.interfaces.core.clients.supports;
+package core.clients.supports;
 
 import java.util.Date;
 

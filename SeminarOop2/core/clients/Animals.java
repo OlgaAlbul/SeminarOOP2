@@ -1,4 +1,4 @@
-package SeminarOop2.core.clients;
+package core.clients;
 
 public interface Animals {
     String getClassName();

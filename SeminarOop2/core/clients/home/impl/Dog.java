@@ -1,7 +1,7 @@
-package SeminarOop2.core.clients.home.impl;
+package core.clients.home.impl;
 
-import SeminarOop2.core.clients.home.Pet;
-import SeminarOop2.core.clients.owners.Owner;
+import core.clients.home.Pet;
+import core.clients.owners.Owner;
 
 import java.time.LocalDate;
 

@@ -1,7 +1,7 @@
-package SeminarOop2.core.clients.owners;
+package core.clients.owners;
 
-import SeminarOop2.core.clients.Animal;
-import SeminarOop2.core.clients.Human;
+import core.clients.Animal;
+import core.clients.Human;
 
 import java.util.ArrayList;
 import java.util.List;
