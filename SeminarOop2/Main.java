@@ -1,9 +1,14 @@
 
+import core.clients.Animal;
+import core.clients.Soundable;
 import core.clients.home.impl.Cat;
 import core.clients.home.impl.Snake;
 import core.clients.owners.Owner;
+import core.VetClinic;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
 
 import core.clients.wild.impl.Duck;
 import core.clients.wild.impl.WildCat;
@@ -45,6 +50,16 @@ public class Main {
         duck1.swim();
         duck1.volume();
         snake1.run();
+        List<Animal> list1 = new ArrayList<>();
+        list1.add(homeCat);
+        list1.add(wildCat);
+        list1.add(duck1);
+        list1.add(snake1);
+        
+        VetClinic.soundableAnimals(list1);
+        VetClinic.flyableAnimals(list1);
+        VetClinic.runnableAnimals(list1);
+        VetClinic.swimableAnimals(list1);
         
 
 

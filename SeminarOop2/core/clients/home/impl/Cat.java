@@ -27,6 +27,6 @@ public class Cat extends Pet implements Soundable, Runnable {
     @Override
     public int run() {
         System.out.println(CLASS_NAME + " ходит со скоростью: 13 км/ч");
-        return 3;
+        return 13;
     }
 }
