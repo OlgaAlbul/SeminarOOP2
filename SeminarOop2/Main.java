@@ -61,7 +61,7 @@ public class Main {
         VetClinic.runnableAnimals(list1);
         VetClinic.swimableAnimals(list1);
         
-
+         
 
 
     }
